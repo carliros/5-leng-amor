@@ -1,0 +1,33 @@
+{
+  "name": "5-leng-amor",
+  "version": "1.0.0",
+  "description": "5-leng-amor helper questionarie",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "tw:build": "tailwindcss build -i ./assets/css/styles.css -o ./docs/assets/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://carliros@github.com/carliros/5-leng-amor.git"
+  },
+  "author": "Carlos Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carliros/5-leng-amor/issues"
+  },
+  "homepage": "https://github.com/carliros/5-leng-amor#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "esbuild": "^0.17.19"
+  }
+}
